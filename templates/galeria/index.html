@@ -1,0 +1,110 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{% static '/style.css' %}">
+</head>
+</head>
+<body>
+    <header>
+        <img src="/static/img/konica_logo.svg" alt="Logo da Minha Empresa">
+        <h1>Area</h1>
+        <nav>
+            <ul>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="section">
+        <h1>Introdução ao Django e sua Importância Empresarial</h1>
+    </div>
+
+    <div class="section">
+        <h2>Seção 1: O que é Django?</h2>
+        <p>
+            Django é um framework de desenvolvimento web em Python que facilita a construção rápida e eficiente
+            de aplicações web robustas. Ele segue o princípio "batteries-included", fornecendo um conjunto abrangente
+            de ferramentas e bibliotecas que aceleram o desenvolvimento e promovem boas práticas de programação.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Seção 2: O que é um Framework?</h2>
+        <p>
+            Um framework é uma estrutura pré-definida que fornece um esqueleto para o desenvolvimento de software.
+            No contexto do desenvolvimento web, um framework como Django oferece soluções comuns para tarefas repetitivas,
+            permitindo que os desenvolvedores se concentrem em lógica de negócios específica.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Seção 3: A Importância de Armazenar Códigos para Uso Geral na Empresa</h2>
+        <p>
+            <strong>3.1: Eficiência no Desenvolvimento</strong><br>
+            Ao armazenar códigos para uso geral no Django, a empresa pode garantir a eficiência no desenvolvimento.
+            Módulos reutilizáveis podem ser compartilhados entre diferentes projetos, economizando tempo e recursos.
+        </p>
+        <p>
+            <strong>3.2: Consistência e Padronização</strong><br>
+            Manter um repositório centralizado de códigos comuns promove a consistência e padronização em toda a organização.
+            Isso facilita a manutenção e reduz a probabilidade de erros causados por diferentes abordagens em projetos separados.
+        </p>
+        <p>
+            <strong>3.3: Atualizações Simples e Manutenção</strong><br>
+            Quando há atualizações ou melhorias nos códigos comuns, a empresa pode facilmente implementar essas mudanças em todos
+            os projetos que compartilham esses recursos. Isso simplifica a manutenção e garante que todas as aplicações estejam atualizadas.
+        </p>
+    </div>
+
+    <div class="section">
+        <h1>Natureza dos códigos que seram armazenados nesse framework</h1>
+        <h2>RPA (Automação de Processos Robóticos)</h2>
+        <p>
+            A RPA, ou Automação de Processos Robóticos, refere-se ao uso de softwares ou "robôs" para automatizar tarefas repetitivas e regras específicas em processos de negócios.
+            Esses robôs de software são capazes de realizar atividades como entrada de dados, manipulação de documentos, interação com sistemas, entre outras, sem intervenção humana direta.
+            A RPA é frequentemente utilizada para aumentar a eficiência, reduzir erros e liberar os funcionários para se concentrarem em tarefas mais estratégicas.
+        </p>
+        
+        <h2>Python</h2>
+        <p>
+            Python é uma linguagem de programação de alto nível, interpretada, de propósito geral e de sintaxe clara. Criada por Guido van Rossum, Python é conhecida por sua legibilidade
+            e simplicidade, o que a torna uma escolha popular tanto para iniciantes quanto para programadores experientes. É uma linguagem versátil que suporta diversos paradigmas de
+            programação, como orientação a objetos, imperativo e funcional. Python é usado em uma ampla variedade de aplicações, desde desenvolvimento web até análise de dados,
+            inteligência artificial, automação e muitos outros campos.
+        </p>
+
+        <div class="section">
+            <h2>PyAutoGUI:</h2>
+            <p>
+                PyAutoGUI é uma biblioteca Python que oferece funcionalidades para automação de tarefas no nível do sistema operacional. É especialmente útil para automação de tarefas
+                que envolvem interações com a interface gráfica do usuário (GUI). Algumas das funcionalidades do PyAutoGUI incluem:
+            </p>
+            <ul>
+                <li><strong>Controle do Mouse e Teclado:</strong> PyAutoGUI permite que você automatize movimentos do mouse e pressionamentos de teclas.</li>
+                <li><strong>Captura de Tela:</strong> É possível tirar screenshots com PyAutoGUI.</li>
+                <li><strong>Reconhecimento de Imagem:</strong> PyAutoGUI permite buscar por imagens em parte da tela, possibilitando identificar elementos visuais para interações.</li>
+                <li><strong>Automação de GUI:</strong> Pode ser usado para automatizar a interação com aplicativos através de sua interface gráfica.</li>
+            </ul>
+            <p>
+                No contexto da RPA, PyAutoGUI pode ser utilizado para criar scripts Python que automatizam a execução de tarefas repetitivas em um ambiente gráfico, contribuindo para
+                a automação de processos de negócios. No entanto, vale ressaltar que enquanto PyAutoGUI é eficaz para automação simples, ferramentas de RPA mais avançadas podem ser
+                preferíveis para projetos mais complexos, proporcionando funcionalidades adicionais e uma abordagem mais robusta para a automação de processos empresariais.
+            </p>
+        </div>
+    
+
+    </div>
+    <section id="sobre">
+
+        <a href="run_script.py">Clique aqui para executar o script Python</a>
+        <a href="{% url 'outra_pagina' %}">Ir para Outra Página</a>
+
+    </section>
+
+</body>
+</html>

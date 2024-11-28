@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #006699;
+    padding-bottom: 10px;
+}
+
+h1 {
+    border-bottom: 2px solid #006699;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    line-height: 1.8;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+ul {
+    color: #001f3f;
+    font-size: 20px; /* Aumentando o tamanho da fonte para 20 pixels */
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+/* Reset de margens e preenchimento padrão para o body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 10px 20px; /* Preenchimento interno no cabeçalho */
+    text-align: center; /* Alinhamento do texto no centro */
+}
+
+/* Estilo para o título dentro do cabeçalho */
+header h1 {
+    margin: 0; /* Remover margens padrão do título */
+}
+
+/* Estilo para a navegação dentro do cabeçalho */
+nav ul {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover preenchimento padrão da lista */
+}
+
+nav ul li {
+    display: inline-block; /* Exibir itens de lista em linha */
+    margin-right: 15px; /* Adicionar espaçamento entre os itens de lista */
+}
+
+nav a {
+    text-decoration: none; /* Remover sublinhado padrão nos links */
+    color: #fff; /* Cor do texto nos links */
+    font-weight: bold; /* Adicionar negrito aos links */
+}
+
+/* Estilizar links quando o mouse passa sobre eles */
+nav a:hover {
+    color: #ffcc00; /* Cor do texto nos links ao passar o mouse sobre eles */
+}
